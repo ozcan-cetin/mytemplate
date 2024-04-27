@@ -1,0 +1,18 @@
+.websiteContainer {
+    .label {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      opacity: 1;
+      color: #69737f;
+    }
+    .selectWrapper {
+      input {
+        font-size: 12px;
+        border-radius: 6px;
+        width: 100%;
+        border: 1px #b2b6b9 solid;
+        height: 40px;
+      }
+    }
+  }

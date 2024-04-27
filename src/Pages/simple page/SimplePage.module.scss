@@ -1,0 +1,200 @@
+.mainContainer {
+  max-width: 992px;
+}
+.title {
+  color: #545454;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.telcode1Container {
+  flex-direction: column;
+  .label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    color: #69737f;
+    .required {
+      color: red;
+      margin-left: 5px;
+    }
+  }
+  .selectWrapper {
+    position: relative;
+    display: inline-block;
+    select {
+      width: 100%;
+      border: 1px #0a58ca solid;
+      color: #0a58ca;
+      height: 40px;
+      font-size: 12px;
+      border-radius: 6px;
+      appearance: none;
+      padding-right: 20px;
+      option {
+        color: #0a58ca !important;
+        
+      }
+    }
+    .customArrow {
+      // border: solid;
+      position: absolute;
+      top: 30%;
+      right: 5px;
+      transform: translateY(-50%);
+      color: #0a58ca;
+      transform: scale(1.5);
+      margin-right: 10px;
+      pointer-events: none;
+    }
+  }
+}
+.telnumber1Container {
+  flex-direction: column;
+  .label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    color: #69737f;
+    .required {
+      color: red;
+      margin-left: 5px;
+    }
+  }
+  .selectWrapper {
+    position: relative;
+    display: inline-block;
+    input {
+      width: 100%;
+      padding: 0px 15px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 13px;
+      //   color: #555;
+      color: #0a58ca;
+      //   border: 1px solid rgb(178 182 185);
+      border: 1px solid #0a58ca;
+      border-radius: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    input::placeholder {
+      //   color: rgb(178 182 185);
+      color: #0a58ca;
+    }
+  }
+}
+.telcode2Container {
+  flex-direction: column;
+  .label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    color: #69737f;
+  }
+  .selectWrapper {
+    position: relative;
+    display: inline-block;
+    select {
+      width: 100%;
+      border: 1px #0a58ca solid;
+      color: #0a58ca;
+      height: 40px;
+      font-size: 12px;
+      border-radius: 6px;
+      appearance: none;
+      padding-right: 20px;
+      option {
+        color: #0a58ca !important;
+      }
+    }
+    .customArrow {
+      // border: solid;
+      position: absolute;
+      top: 30%;
+      right: 5px;
+      transform: translateY(-50%);
+      color: #0a58ca;
+      transform: scale(1.5);
+      margin-right: 10px;
+      pointer-events: none;
+    }
+  }
+}
+.telnumber2Container {
+  flex-direction: column;
+  .label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    color: #69737f;
+  }
+  .selectWrapper {
+    position: relative;
+    display: inline-block;
+    input {
+      width: 100%;
+      padding: 0px 15px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 13px;
+      color: #555;
+      //   color: #0a58ca;
+      border: 1px solid rgb(178 182 185);
+      //   border: 1px solid #0a58ca;
+      border-radius: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    input::placeholder {
+      color: rgb(178 182 185);
+      //   color: #0a58ca;
+    }
+  }
+}
+
+.buttonContainer {
+  width: 100%;
+  height: auto;
+  .backButton {
+    background: #e5e6ec !important;
+    color: #050505 !important;
+    font-weight: 400 !important;
+    border: none !important;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 18px;
+    .icon{
+        position: relative;
+        bottom: 3px;
+        right: 5px;
+    }
+  }
+  .saveButton {
+    height: 40px;
+    width: 244px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2253af;
+    box-shadow: 0px 1px 1px 0px rgba(0 0 0 / 0.16);
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 20px;
+    line-height: 50px;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+    .icon{
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["react", "react-dom", "react-input-mask"],
     "target": "es5",
     "lib": [
       "dom",

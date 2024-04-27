@@ -1,0 +1,28 @@
+.emailContainer {
+    flex-direction: column;
+    .label {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      opacity: 1;
+      color: #69737f;
+      .required {
+        color: red;
+        margin-left: 5px;
+      }
+    }
+    .emailWrapper {
+      position: relative;
+      display: inline-block;
+      input {
+        width: 100%;
+        border: 1px #0a58ca solid;
+        color: #0a58ca;
+        height: 40px;
+        font-size: 12px;
+        border-radius: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }

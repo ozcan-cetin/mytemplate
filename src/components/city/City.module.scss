@@ -1,0 +1,42 @@
+.cityContainer {
+    flex-direction: column;
+    .label {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      opacity: 1;
+      color: #69737f;
+      .required {
+        color: red;
+        margin-left: 5px;
+      }
+    }
+    .selectWrapper {
+      position: relative;
+      display: inline-block;
+      select {
+        width: 100%;
+        border: 1px #0a58ca solid;
+        color: #0a58ca;
+        height: 40px;
+        font-size: 12px;
+        border-radius: 6px;
+        appearance: none;
+        padding-right: 20px;
+        option {
+          color: #0a58ca !important;
+        }
+      }
+      .customArrow {
+        // border: solid;
+        position: absolute;
+        top: 30%;
+        right: 5px;
+        transform: translateY(-50%);
+        color: #0a58ca;
+        transform: scale(1.5);
+        margin-right: 10px;
+        pointer-events: none;
+      }
+    }
+  }
